@@ -1,0 +1,10 @@
+TractorCow\Fluent\Model\Locale:
+  de:
+    Title: Deutsch
+    Locale: de_DE
+    URLSegment: de
+    IsGlobalDefault: 1
+  en:
+    Title: English
+    Locale: en_GB
+    URLSegment: en
