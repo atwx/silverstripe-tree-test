@@ -246,3 +246,7 @@ Page:
     Title: "Test 60"
     Content: "Content of Test 60"
     ParentID: =>Page.test39
+  test61:
+    Title: "Test 61"
+    Content: "Content of Test 61"
+    ParentID: =>Page.test55
