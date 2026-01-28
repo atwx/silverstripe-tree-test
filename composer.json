@@ -7,7 +7,8 @@
         "php": "^8.3",
         "silverstripe/recipe-plugin": "~2.1.0@stable",
         "silverstripe/vendor-plugin": "~3.0.0@stable",
-        "silverstripe/recipe-cms": "~6.1.0@stable",
+        "silverstripe/recipe-cms": "~6.1.0",
+        "silverstripe/cms": "6.1.x-dev",
         "silverstripe/startup-theme": "~1.0.11@stable",
         "silverstripe/login-forms": "~6.1.0@stable",
         "silverstripe/htmleditor-tinymce": "~1.0.2@stable"
@@ -16,6 +17,7 @@
         "phpunit/phpunit": "^11.3",
         "dnadesign/silverstripe-populate": "^4.0"
     },
+
     "extra": {
         "project-files": [
             "app/_config/*",
@@ -46,8 +48,14 @@
             "composer/installers": true,
             "silverstripe/recipe-plugin": true,
             "silverstripe/vendor-plugin": true
+        },
+        "preferred-install": {
+            "silverstripe/admin": "source",
+            "silverstripe/cms": "source",
+            "*": "dist"
         }
     },
+
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
