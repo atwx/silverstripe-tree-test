@@ -6,19 +6,19 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:atwx/silverstripe-admin.git"
+            "url": "https://github.com/atwx/silverstripe-admin"
         }
     ],
     "require": {
         "php": "^8.3",
-        "silverstripe/recipe-plugin": "^2",
-        "silverstripe/vendor-plugin": "^3",
-        "silverstripe/recipe-cms": "^6.x-dev",
-        "silverstripe/cms": "6.x-dev",
+        "silverstripe/recipe-plugin": "~2.1.0@stable",
+        "silverstripe/vendor-plugin": "~3.0.0@stable",
+        "silverstripe/recipe-cms": "~6.2.0",
+        "silverstripe/cms": "~6.2.0",
         "silverstripe/startup-theme": "~1.0.11@stable",
-        "silverstripe/login-forms": "^6.1",
+        "silverstripe/login-forms": "~6.2.0",
         "silverstripe/htmleditor-tinymce": "~1.0.2@stable",
-        "silverstripe/admin": "dev-fixes/fix-large-dropdowntree as 3.x-dev"
+        "silverstripe/admin": "3.x-dev as 3.2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.3",
