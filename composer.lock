@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ba114abe1853ea307ebefed214c4051",
+    "content-hash": "5dfaac82ee8be5deb00e9390d3aa682c",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2503,13 +2503,13 @@
             "version": "3.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/atwx/silverstripe-admin.git",
-                "reference": "a2cf93b7e7007ca105134a6d2b37f98e8febfbc0"
+                "url": "https://github.com/silverstripe/silverstripe-admin.git",
+                "reference": "ed880ca93c21efdcdb53e62ddbe9a5a162ea6e05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atwx/silverstripe-admin/zipball/a2cf93b7e7007ca105134a6d2b37f98e8febfbc0",
-                "reference": "a2cf93b7e7007ca105134a6d2b37f98e8febfbc0",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/ed880ca93c21efdcdb53e62ddbe9a5a162ea6e05",
+                "reference": "ed880ca93c21efdcdb53e62ddbe9a5a162ea6e05",
                 "shasum": ""
             },
             "require": {
@@ -2540,14 +2540,7 @@
                     "SilverStripe\\Admin\\Tests\\Behat\\Context\\": "tests/behat/src/"
                 }
             },
-            "scripts": {
-                "lint": [
-                    "phpcs code/ tests/php/"
-                ],
-                "lint-clean": [
-                    "phpcbf code/ tests/php/"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -2568,9 +2561,10 @@
                 "silverstripe"
             ],
             "support": {
-                "source": "https://github.com/atwx/silverstripe-admin/tree/3"
+                "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/3"
             },
-            "time": "2026-02-17T20:35:47+00:00"
+            "time": "2026-11-17T22:41:51+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
